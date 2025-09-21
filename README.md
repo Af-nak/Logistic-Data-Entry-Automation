@@ -1,6 +1,5 @@
 # Logistics Form User Interface (Excel Automation)
 
-##  Table of Contents
 ## Table of Contents  
 - [Project Overview](#project-overview)  
 - [Key Insights](#key-insights)  
