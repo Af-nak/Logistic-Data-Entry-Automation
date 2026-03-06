@@ -1,4 +1,6 @@
 # Logistics Form User Interface (Excel Automation)
+### An Excel Based Project Built to optimize data-entry and automate Dashboard
+![Home Page](Roy_Images/home.png)
 
 ## Table of Contents  
 - [Project Overview](#project-overview)  
@@ -42,13 +44,17 @@ The system uses three core tables:
    - Captures product and shipment details when a shipment is **sent**.  
    - Data entered through the **Logistics Entry Form**.  
    - Columns include:  
-     `Order ID`, `Product Name`, `Purchase Price`, `Tracking ID`, `Shipping Mode`, `Weight`, `Quantity`, `Date Sent`, `Forecast Shipping Fee`, `Forecast Arrival Date`.  
+     `Order ID`, `Product Name`, `Purchase Price`, `Tracking ID`, `Shipping Mode`, `Weight`, `Quantity`, `Date Sent`, `Forecast Shipping Fee`, `Forecast Arrival Date`.
+
+  ![Logistic data-entry form](Roy_Images/form_1.png)
 
 2. **Shipment Table**  
    - Records actual shipment details when shipment **arrive**.  
    - Data entered through the **Shipment Entry Form**.  
-   - Captures **Actual Shipping Fee** and **Actual Arrival Date**.  
-
+   - Captures **Actual Shipping Fee** and **Actual Arrival Date**.
+  
+  ![Shipment data-entry orm](Roy_Images/form_2.png)
+  
 3. **Forecast Table**  
    - Contains company-provided reference data from past shipment records.  
    - Used to estimate **Forecast Arrival Date** and **Forecast Shipping Fee**.  
@@ -93,6 +99,7 @@ The following guiding questions were explored to generate insights:
   4. **Scatter Chart** – Relationship between weight and shipping cost  
   5. **KPI Cards** – On-time forecast %, Total Orders, Total Cost  
 
+![Dashboard](Roy_Images/Dashboard.png)
 - Implemented **Power Query merge queries** to unify the three tables.  
 - Built a **date table** to support time-based analysis.  
 - Applied **DAX measures** to calculate metrics such as:  
